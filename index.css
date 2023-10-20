@@ -1,0 +1,181 @@
+
+.navbar {
+    text-align: right;
+  }
+  
+  .outdiv {
+    padding: 0 2% 0 2%;
+  }
+  .hoverable-text:hover{
+    color: rgb(38, 192, 253) !important;
+
+  }
+  
+  @media screen and (max-width: 960px) {
+    .mainHead {
+      font-size: 1.8rem;
+      font-weight: bold;
+      padding-top: 10%;
+      text-align: center;
+    }
+    .abc {
+      text-align: center;
+      margin-bottom: 15%;
+    }
+  }
+  @media screen and (max-width: 767px){
+    .playstorebtn{
+      padding-top: 3.5%;
+    }
+  }
+    
+  
+  
+  .row > div {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+  .card > img {
+    height: 90px !important;
+    width: 100px !important;
+    margin: 6% 0 6% 0;
+  }
+  .cardPararaph {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #6b7990;
+    line-height: 1rem;
+    padding-bottom: 4%;
+    padding-top: 6%;
+  }
+  .card-title {
+    font-weight: bold;
+    font-size: 1.3rem;
+  }
+  .mainHead {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  
+  
+  
+  .emailSubButton {
+    width: 80%;
+    height: 140%;
+    border: solid 1px #a5b7ca;
+    border-radius: 0.3rem;
+  }
+  
+  .socialLogo > button {
+    background: none;
+    border: none;
+  }
+  .socialLogo > span {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #637082;
+  }
+  
+  
+  @media screen and (max-width: 770px) {
+    .emailSubButton {
+      width: 100%;
+      margin: auto;
+    }
+  
+    .product {
+      margin-top: 60px;
+      margin-bottom: 60px;
+    }
+    .copyright {
+      margin-bottom: 60px;
+    }
+  
+    .socialLogo {
+      padding-top: 10%;
+    }
+  }
+  .bluwllt{
+    font-size: 18px;
+    color: #6b7990;
+  }
+
+ .prohead{
+  font-weight: bold;
+ }
+
+  .product {
+    padding-top: 50px;
+    
+  }
+  .copyright {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+  }
+  .product > a {
+    text-decoration: none;
+    color: #6b7990;
+    margin-right: 15px;
+    
+  }
+  .copyright > a {
+    text-decoration: none;
+    color: #6b7990;
+    margin-right: 15px;
+  }
+  
+  @media screen and (min-width: 960px) {
+    .playstorebtn {
+      margin-left: 5%;
+    }
+  }
+  
+  @media screen and (max-width: 960px) {
+    .appstorebtn {
+      margin-left: 5%;
+    }
+    .playstorebtn {
+      margin-left: 6%;
+      
+    }
+  }
+  
+  @media screen and (max-width: 750px) {
+    .appstorebtnBottom {
+      margin-left: 0;
+    }
+    .playstorebtnBottom {
+      margin-left: 0;
+      margin-top: 2%;
+      
+    }
+  }
+  @media screen and (min-width: 960px) {
+    .playstorebtnBottom {
+      margin-bottom: 5%;
+    }
+  }
+  
+  .card{
+    cursor: pointer;
+    box-shadow: 5px 5px  5px rgba(0 ,0 ,0 ,.15) ;
+    
+    
+  }
+  .card:hover{
+    box-shadow: 10px 10px 10px rgba(0 ,0 ,0 ,.15) ;
+  }
+  .playbtnBttm:hover{
+    cursor: pointer;
+  }
+  .appbtnBttm:hover{
+    cursor: pointer;
+  }
+  .plabtn:hover{
+    cursor: pointer;
+  }
+  .appbtn:hover{
+    cursor: pointer;
+  }
